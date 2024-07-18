@@ -1,0 +1,32 @@
+export const homeResources = {
+    en: {
+        Welcome: "Welcome to our website.",
+        HomeT1: "If you are a small business or enterprise we can setup and configure your entire infrastructure...we build your website or mobile apps, we update and upgrade your existing websites or mobile apps, we teach your IT team the most recent technologies...",
+        HomeT2: "We make it happen digitally!",
+        HomeT3: "These are our top promotions. Up to 60% OFF.",
+        HomeT4: "Database Infrastructure",
+        HomeT5: "Building your website(A-Z)",
+        HomeT6: "Building Mobile Apps",
+        HomeT7: "All around IT services",
+    },
+    fr: {
+        Welcome: "Bienvenue sur notre site.",
+        HomeT1: "Si vous êtes une petite entreprise ou une entreprise, nous pouvons installer et configurer l'intégralité de votre infrastructure... nous construisons votre site Web ou vos applications mobiles, nous mettons à jour et mettons à niveau vos sites Web ou applications mobiles existants, nous enseignons à votre équipe informatique les technologies les plus récentes...",
+        HomeT2: "Nous y parvenons digital!",
+        HomeT3: "Ce sont nos meilleures promotions. Jusqu'à 60% de réduction.",
+        HomeT4: "Infrastructure de base de données",
+        HomeT5: "Construire votre site Web (A-Z)",
+        HomeT6: "Création d'applications mobiles",
+        HomeT7: "Services informatiques complets",
+    },
+    ar: {
+        Welcome: "أهلا في موقعنا.",
+        HomeT1: "إذا كنت شركة أو مؤسسة صغيرة، فيمكننا إعداد البنية التحتية بالكامل وتكوينها... فنحن نبني موقع الويب الخاص بك أو تطبيقات الهاتف المحمول، ونقوم بتحديث وترقية مواقع الويب أو تطبيقات الهاتف المحمول الحالية لديك، ونقوم بتعليم فريق تكنولوجيا المعلومات الخاص بك أحدث التقنيات...",
+        HomeT2: "نحن نجعل ذلك يحدث رقميا!",
+        HomeT3: "هذه هي أفضل العروض الترويجية لدينا. خصم يصل إلى ۶۰٪.",
+        HomeT4: "البنية التحتية لقاعدة البيانات",
+        HomeT5: "بناء موقع الويب الخاص بك (من الألف إلى الياء)",
+        HomeT6: "بناء تطبيقات الجوال",
+        HomeT7: "في جميع أنحاء خدمات تكنولوجيا المعلومات",
+    },
+}

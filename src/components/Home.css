@@ -1,0 +1,90 @@
+
+.h-p {
+    margin-top: 125px;
+}
+
+.showcase {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.showcase img {
+    width: 100%;
+    opacity: 1;
+}
+
+.h-main {
+    margin: 50px 20px;
+}
+
+.home-txt-1 {
+    padding: 5px 200px;
+    text-align: center;
+}
+
+.catchy-txt {
+    position: absolute;
+    top: 250px;
+    width: 500px;
+    left: calc(50% - 250px);
+font-size: 90px;
+font-weight: bold;
+color: #fff;
+text-shadow: 5px 5px 2px #0084ff;
+    background: #0005;
+    text-align: center;
+    border-radius: 9px;
+    border-bottom: 13px;
+}
+
+.catchy-txt:hover {
+    background: #ffee0088;
+    color: #ff8800;
+    text-shadow: 8px 8px 3px #000;
+}
+
+.promotion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.promo-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promo-item {
+    width: 400px;
+    height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    background: #000;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.promo-item img {
+    width: 100%;
+}
+
+.promo-txt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: -230px;
+    background: #0006;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.promo-item:hover .promo-txt{
+    opacity: 1;
+}
+

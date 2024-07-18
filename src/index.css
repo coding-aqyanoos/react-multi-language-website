@@ -1,13 +1,308 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root {
+ --fc: #000;
+ --bc: #eee;
+ --bar: #fff6;
+ --bc-hdr: #005050;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma, Arial;
+  font-size: 16px;
+  color: var(--fc);
+  background:var(--bc);
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body.ar {
+  direction: rtl;
+  text-align: right;
+}
+
+img {
+  border-radius: 9px;
+}
+
+img:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 18px 8px #008080;
+  border-radius: 15px;
+}
+
+.page-hdr {
+  position: fixed;
+  top: 0;
+  background: var(--bc-hdr);
+  width: 100%;
+  z-index: 2;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid var(--bar);
+}
+
+.search form {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 100%;
+  height: 20px;
+  padding: 3px 5px;
+  border-radius: 9px;
+  border: none;
+  outline: 2px solid #06d0f4;
+}
+
+.search button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search svg {
+  width: 30px;
+  height: 30px;
+}
+
+.search path {
+  fill: #fff;
+}
+
+.lang-selector {
+  color: #fff;
+  position: fixed;
+  top: 20px;
+  right: 30px;
+
+}
+
+.current-lang {
+  cursor: pointer;
+  position: fixed;
+  right: 18px;
+}
+
+.languages {
+  display: none;
+  background: #000a;
+  padding: 7px 10px;
+  margin-right: -30px;
+  line-height: 30px;
+  margin-top: 29px;
+  text-align: center;
+}
+
+.lang-selector:hover .languages {
+  display: block;
+}
+
+.arr-d {
+  margin-top: 5px;
+}
+
+.main-nav {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid var(--bar);
+}
+
+.nav-bar {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.current {
+  background: #fff;
+  color: #005050;
+  padding: 3px 5px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.discount {
+  background: #f00;
+  color: #fff;
+}
+
+
+
+.newsletter {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.newsletter input[type="email"] {
+  width: 60%;
+  height: 50px;
+  border: none;
+  outline: 1px solid #008080;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+
+.newsletter input[type="submit"] {
+  width: 150px;
+  height: 60px;
+  border: none;
+  outline: 1px solid #005050;
+  background: #008080;
+  color: #fff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover  {
+  background: #005050;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+input:focus {
+  outline: 2px solid #005050;
+}
+
+.main-footer {
+  background: #005050;
+  color: #fff;
+  padding: 30px 5px 5px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-items > div {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.main-footer a {
+  font-size: 14px;
+}
+
+.copy-right {
+  font-size: 14px;
+  margin-top: 30px;
+  direction: ltr !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.page {
+  margin: 160px 10px 20px;
+}
+
+.mx-50 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.mt-110 {
+  margin-top: 110px;
+}
+
+.page-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.page-item .child-item {
+  width: 40%;
+}
+
+.page-item img {
+  width: 100%;
+}
+
+.page-item.reverse {
+  flex-direction: row-reverse;
+}
+
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact-form .lbl {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  border: none;
+  outline: 1px solid #008080;
+}
+
+.contact-form textarea {
+  height: 70px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  border: none;
+  float: right;
+  font-size: 30px;
+  padding: 5px 20px;
+  background: #008080;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #005050;
+}
+
+.newsletter input[type="email"]:focus, .contact-form input:focus, .contact-form textarea:focus {
+  outline: 2px solid #005050;
 }

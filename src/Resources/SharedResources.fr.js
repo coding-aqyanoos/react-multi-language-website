@@ -1,0 +1,28 @@
+
+export const resourcesFR = {
+    SearchHint: "E.G : réagir bien sûr",
+    Home: "Maison",
+    Services: "Les Services",
+    Contact: "Contact",
+    About: "À propos",
+    Submit: "Soumettre",
+    NewsL: "Abonnez-vous à notre newsletter pour rester informé.",
+    Main: "Main",
+    Privacy: "Confidentialité",
+    WebDev: "Développement web",
+    MobileDev: "Développement d'App mobiles",
+    Infra: "Infrastructure",
+    Net: "La mise en réseau",
+    HelpDesk: "bureau d'aide",
+    FB: "Facebook",
+    ING: "Instagram",
+    X: "Twitter",
+    IN: "LinkedIn",
+    WP: "WhatsApp",
+    YT: "YouTube",
+    Jobs: "Emplois",
+    Partners: "Les partenaires",
+    Resources: "Resources",
+    SocialMedia: "Réseaux sociaux",
+    More: "Plus"
+}
